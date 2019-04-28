@@ -24,8 +24,9 @@
 		6D29897C2257B3D4006D3FB8 /* CustomMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2989742257B3D3006D3FB8 /* CustomMarkerView.swift */; };
 		6D29897D2257B3D4006D3FB8 /* SearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2989752257B3D3006D3FB8 /* SearchResultsController.swift */; };
 		6D29897F2257B42E006D3FB8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D29897E2257B42E006D3FB8 /* GoogleService-Info.plist */; };
-		6D5C92DB225F531C00E47074 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5C92DA225F531C00E47074 /* TableViewController.swift */; };
-		6D661497225A16A3002B04D0 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D661496225A16A3002B04D0 /* CustomTabBar.swift */; };
+		6D64D712227579E400C13D0B /* MileMonthListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D64D711227579E400C13D0B /* MileMonthListCell.swift */; };
+		6D64D71422757A0100C13D0B /* MileFirstListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D64D71322757A0100C13D0B /* MileFirstListCell.swift */; };
+		6D64D71622757A1E00C13D0B /* MileSecondListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D64D71522757A1E00C13D0B /* MileSecondListCell.swift */; };
 		6D6DA862226432B3002DBA3E /* VaccinationListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6DA861226432B3002DBA3E /* VaccinationListController.swift */; };
 		6D6DA86422643301002DBA3E /* VaccinationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6DA86322643301002DBA3E /* VaccinationTableViewCell.swift */; };
 		6D6DA86622643DC9002DBA3E /* UICollectionGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6DA86522643DC9002DBA3E /* UICollectionGridViewController.swift */; };
@@ -34,6 +35,10 @@
 		6D6DA86C22643F93002DBA3E /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6DA86B22643F93002DBA3E /* TestViewController.swift */; };
 		6D7D6D1122586B0100A5BFB1 /* PlacePreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7D6D1022586B0100A5BFB1 /* PlacePreviewView.swift */; };
 		6D917CAB225C587000C39CCF /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D917CAA225C587000C39CCF /* GuideViewController.swift */; };
+		6DB72FF32275514300FF4197 /* FoodMonthListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB72FF22275514300FF4197 /* FoodMonthListCell.swift */; };
+		6DB72FF52275517800FF4197 /* FoodFirstListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB72FF42275517800FF4197 /* FoodFirstListCell.swift */; };
+		6DB72FF7227551A000FF4197 /* FoodSecondListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB72FF6227551A000FF4197 /* FoodSecondListCell.swift */; };
+		6DB72FF9227551DC00FF4197 /* MonthAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB72FF8227551DC00FF4197 /* MonthAlertView.swift */; };
 		DF85410BDA75092925C6795F /* Pods_Week9TutorialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3BEE5F3FEC5AEEA8B3B7CAC /* Pods_Week9TutorialUITests.framework */; };
 		F8C9604A209473D5007E90C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C96049209473D5007E90C5 /* AppDelegate.swift */; };
 		F8C9604F209473D5007E90C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8C9604D209473D5007E90C5 /* Main.storyboard */; };
@@ -86,8 +91,9 @@
 		6D29897E2257B42E006D3FB8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6D546B80225AFF9100805BE2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		6D546B81225AFF9200805BE2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
-		6D5C92DA225F531C00E47074 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		6D661496225A16A3002B04D0 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		6D64D711227579E400C13D0B /* MileMonthListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MileMonthListCell.swift; sourceTree = "<group>"; };
+		6D64D71322757A0100C13D0B /* MileFirstListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MileFirstListCell.swift; sourceTree = "<group>"; };
+		6D64D71522757A1E00C13D0B /* MileSecondListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MileSecondListCell.swift; sourceTree = "<group>"; };
 		6D6DA861226432B3002DBA3E /* VaccinationListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccinationListController.swift; sourceTree = "<group>"; };
 		6D6DA86322643301002DBA3E /* VaccinationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccinationTableViewCell.swift; sourceTree = "<group>"; };
 		6D6DA86522643DC9002DBA3E /* UICollectionGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionGridViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +102,10 @@
 		6D6DA86B22643F93002DBA3E /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		6D7D6D1022586B0100A5BFB1 /* PlacePreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacePreviewView.swift; sourceTree = "<group>"; };
 		6D917CAA225C587000C39CCF /* GuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
+		6DB72FF22275514300FF4197 /* FoodMonthListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMonthListCell.swift; sourceTree = "<group>"; };
+		6DB72FF42275517800FF4197 /* FoodFirstListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodFirstListCell.swift; sourceTree = "<group>"; };
+		6DB72FF6227551A000FF4197 /* FoodSecondListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodSecondListCell.swift; sourceTree = "<group>"; };
+		6DB72FF8227551DC00FF4197 /* MonthAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthAlertView.swift; sourceTree = "<group>"; };
 		79C928870E857A94CD1028DE /* Pods-Week9TutorialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Week9TutorialUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Week9TutorialUITests/Pods-Week9TutorialUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		876D023F44B1D01979CD682C /* Pods-Week9Tutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Week9Tutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Week9Tutorial/Pods-Week9Tutorial.debug.xcconfig"; sourceTree = "<group>"; };
 		A096A356EF116EFF11BA3222 /* Pods-Week9Tutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Week9Tutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-Week9Tutorial/Pods-Week9Tutorial.release.xcconfig"; sourceTree = "<group>"; };
@@ -157,6 +167,75 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6D64D70B227575A300C13D0B /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				6D29896F2257B3D0006D3FB8 /* FirstViewController.swift */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		6D64D70C227575C700C13D0B /* MapPage */ = {
+			isa = PBXGroup;
+			children = (
+				0AD7561422706389007505CF /* MapViewController.swift */,
+				0AD7561222705902007505CF /* RatingListViewController.swift */,
+				6D7D6D1022586B0100A5BFB1 /* PlacePreviewView.swift */,
+				6D2989752257B3D3006D3FB8 /* SearchResultsController.swift */,
+				6D2989742257B3D3006D3FB8 /* CustomMarkerView.swift */,
+				0AD7560E22700B0A007505CF /* NewfourthViewController.swift */,
+				0AD7561022703D8B007505CF /* HttpServerManager.swift */,
+			);
+			path = MapPage;
+			sourceTree = "<group>";
+		};
+		6D64D70D2275761400C13D0B /* FoodPage */ = {
+			isa = PBXGroup;
+			children = (
+				6D289A2A225DE1E100B77FDA /* FifthViewController.swift */,
+				6DB72FF42275517800FF4197 /* FoodFirstListCell.swift */,
+				6DB72FF22275514300FF4197 /* FoodMonthListCell.swift */,
+				6DB72FF6227551A000FF4197 /* FoodSecondListCell.swift */,
+			);
+			path = FoodPage;
+			sourceTree = "<group>";
+		};
+		6D64D70E2275766800C13D0B /* VacInfoPage */ = {
+			isa = PBXGroup;
+			children = (
+				6D6DA86722643E3C002DBA3E /* UICollectionGridViewCell.swift */,
+				6D6DA86322643301002DBA3E /* VaccinationTableViewCell.swift */,
+				6D6DA86B22643F93002DBA3E /* TestViewController.swift */,
+				6D6DA86922643E7D002DBA3E /* UICollectionGridViewLayout.swift */,
+				6D917CAA225C587000C39CCF /* GuideViewController.swift */,
+				6D2989702257B3D0006D3FB8 /* VaccinationViewController.swift */,
+				6D2989712257B3D1006D3FB8 /* SecondViewController.swift */,
+				6D6DA86522643DC9002DBA3E /* UICollectionGridViewController.swift */,
+				6D6DA861226432B3002DBA3E /* VaccinationListController.swift */,
+			);
+			path = VacInfoPage;
+			sourceTree = "<group>";
+		};
+		6D64D70F227576D200C13D0B /* CoveragePage */ = {
+			isa = PBXGroup;
+			children = (
+				6D29896E2257B3D0006D3FB8 /* ThirdViewController.swift */,
+			);
+			path = CoveragePage;
+			sourceTree = "<group>";
+		};
+		6D64D7102275772400C13D0B /* MilestonePage */ = {
+			isa = PBXGroup;
+			children = (
+				6D289A2E225DE2C600B77FDA /* SixthViewController.swift */,
+				6D64D711227579E400C13D0B /* MileMonthListCell.swift */,
+				6D64D71522757A1E00C13D0B /* MileSecondListCell.swift */,
+				6D64D71322757A0100C13D0B /* MileFirstListCell.swift */,
+				6DB72FF8227551DC00FF4197 /* MonthAlertView.swift */,
+			);
+			path = MilestonePage;
+			sourceTree = "<group>";
+		};
 		EF05A9EA14A4D839A5EDF1C2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,34 +277,18 @@
 			isa = PBXGroup;
 			children = (
 				F8C96049209473D5007E90C5 /* AppDelegate.swift */,
-				F8C9604D209473D5007E90C5 /* Main.storyboard */,
 				F8C96050209473D8007E90C5 /* Assets.xcassets */,
+				F8C9604D209473D5007E90C5 /* Main.storyboard */,
 				F8C96052209473D8007E90C5 /* LaunchScreen.storyboard */,
-				6D2989742257B3D3006D3FB8 /* CustomMarkerView.swift */,
-				6D29896F2257B3D0006D3FB8 /* FirstViewController.swift */,
-				6D7D6D1022586B0100A5BFB1 /* PlacePreviewView.swift */,
-				6D289A2E225DE2C600B77FDA /* SixthViewController.swift */,
-				6D6DA861226432B3002DBA3E /* VaccinationListController.swift */,
-				6D6DA86722643E3C002DBA3E /* UICollectionGridViewCell.swift */,
+				6D64D70F227576D200C13D0B /* CoveragePage */,
+				6D64D70E2275766800C13D0B /* VacInfoPage */,
+				6D64D70C227575C700C13D0B /* MapPage */,
+				6D64D70B227575A300C13D0B /* HomePage */,
+				6D64D70D2275761400C13D0B /* FoodPage */,
+				6D64D7102275772400C13D0B /* MilestonePage */,
 				6D2989732257B3D2006D3FB8 /* FourthViewController.swift */,
-				6D5C92DA225F531C00E47074 /* TableViewController.swift */,
-				6D6DA86322643301002DBA3E /* VaccinationTableViewCell.swift */,
-				6D2989752257B3D3006D3FB8 /* SearchResultsController.swift */,
-				6D6DA86522643DC9002DBA3E /* UICollectionGridViewController.swift */,
-				6D6DA86B22643F93002DBA3E /* TestViewController.swift */,
-				6D917CAA225C587000C39CCF /* GuideViewController.swift */,
-				6D6DA86922643E7D002DBA3E /* UICollectionGridViewLayout.swift */,
-				6D2989712257B3D1006D3FB8 /* SecondViewController.swift */,
-				6D29897E2257B42E006D3FB8 /* GoogleService-Info.plist */,
-				6D29896E2257B3D0006D3FB8 /* ThirdViewController.swift */,
-				6D289A2A225DE1E100B77FDA /* FifthViewController.swift */,
-				6D2989702257B3D0006D3FB8 /* VaccinationViewController.swift */,
-				6D661496225A16A3002B04D0 /* CustomTabBar.swift */,
 				6D2989722257B3D2006D3FB8 /* ViewController.swift */,
-				0AD7560E22700B0A007505CF /* NewfourthViewController.swift */,
-				0AD7561222705902007505CF /* RatingListViewController.swift */,
-				0AD7561422706389007505CF /* MapViewController.swift */,
-				0AD7561022703D8B007505CF /* HttpServerManager.swift */,
+				6D29897E2257B42E006D3FB8 /* GoogleService-Info.plist */,
 				F8C96055209473D8007E90C5 /* Info.plist */,
 			);
 			path = Week9Tutorial;
@@ -504,25 +567,30 @@
 				6D29897A2257B3D4006D3FB8 /* ViewController.swift in Sources */,
 				6D289A2F225DE2C600B77FDA /* SixthViewController.swift in Sources */,
 				6D6DA86A22643E7D002DBA3E /* UICollectionGridViewLayout.swift in Sources */,
+				6D64D712227579E400C13D0B /* MileMonthListCell.swift in Sources */,
 				6D29897C2257B3D4006D3FB8 /* CustomMarkerView.swift in Sources */,
-				6D661497225A16A3002B04D0 /* CustomTabBar.swift in Sources */,
 				0AD7561522706389007505CF /* MapViewController.swift in Sources */,
 				6D2989782257B3D4006D3FB8 /* VaccinationViewController.swift in Sources */,
+				6D64D71422757A0100C13D0B /* MileFirstListCell.swift in Sources */,
 				6D6DA86C22643F93002DBA3E /* TestViewController.swift in Sources */,
 				6D2989772257B3D4006D3FB8 /* FirstViewController.swift in Sources */,
+				6D64D71622757A1E00C13D0B /* MileSecondListCell.swift in Sources */,
 				6D917CAB225C587000C39CCF /* GuideViewController.swift in Sources */,
+				6DB72FF32275514300FF4197 /* FoodMonthListCell.swift in Sources */,
 				0AD7561122703D8B007505CF /* HttpServerManager.swift in Sources */,
+				6DB72FF7227551A000FF4197 /* FoodSecondListCell.swift in Sources */,
 				6D29897D2257B3D4006D3FB8 /* SearchResultsController.swift in Sources */,
 				6D29897B2257B3D4006D3FB8 /* FourthViewController.swift in Sources */,
 				6D6DA86822643E3C002DBA3E /* UICollectionGridViewCell.swift in Sources */,
 				6D6DA862226432B3002DBA3E /* VaccinationListController.swift in Sources */,
 				6D7D6D1122586B0100A5BFB1 /* PlacePreviewView.swift in Sources */,
 				6D289A2B225DE1E100B77FDA /* FifthViewController.swift in Sources */,
+				6DB72FF9227551DC00FF4197 /* MonthAlertView.swift in Sources */,
 				6D2989762257B3D4006D3FB8 /* ThirdViewController.swift in Sources */,
 				6D2989792257B3D4006D3FB8 /* SecondViewController.swift in Sources */,
-				6D5C92DB225F531C00E47074 /* TableViewController.swift in Sources */,
 				6D6DA86422643301002DBA3E /* VaccinationTableViewCell.swift in Sources */,
 				F8C9604A209473D5007E90C5 /* AppDelegate.swift in Sources */,
+				6DB72FF52275517800FF4197 /* FoodFirstListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
