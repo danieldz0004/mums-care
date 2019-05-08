@@ -1,14 +1,14 @@
 //
-//  FifthViewController.swift
+//  TabBarViewController.swift
 //  Week9Tutorial
 //
-//  Created by Daniel Dz on 10/4/19.
+//  Created by 姚逸晨 on 29/4/19.
 //  Copyright © 2019 Jason Haasz. All rights reserved.
 //
 
 import UIKit
 
-class FifthViewController: UIViewController {
+class TabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

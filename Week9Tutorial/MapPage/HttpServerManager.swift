@@ -2,8 +2,8 @@
 //  HttpServerManager.swift
 //  hownet
 //
-//  Created by 张越 on 2019/3/21.
-//  Copyright © 2019 张越. All rights reserved.
+//  Created by Daniel Dz on 2019/3/21.
+//  Copyright © 2019 Daniel Dz. All rights reserved.
 //
 
 import UIKit
@@ -27,5 +27,5 @@ class HttpServerManager: NSObject {
         }
         sessionDataTask.resume()
     }
-
+    
 }

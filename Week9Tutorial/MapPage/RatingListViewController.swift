@@ -9,7 +9,7 @@
 import UIKit
 
 class RatingListViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
-
+    
     var dataArray:[[String:Any]]?
     
     @IBOutlet weak var tabelview: UITableView!
@@ -50,5 +50,6 @@ class RatingListViewController: UIViewController,UITableViewDelegate,UITableView
         vc.dic = self.dataArray![indexPath.row]
         self.navigationController?.pushViewController(vc, animated: true)
     }
-
+    
 }
+
