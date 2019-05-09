@@ -18,11 +18,11 @@ class FifthViewController: UIViewController {
     }
     
     var dataArray = [
-        ["title":"0-6","open":"0","detail":[
+        ["title":"0-6 Months","open":"0","detail":[
             ["title":"Liquids","open":"0","detail":[
                 ["title":"Breastmilk","type":"0","image":"1"],
                 ["title":"Infant formula","type":"0","image":"2"]]]]],
-        ["title":"6-7","open":"0","detail":[
+        ["title":"6-7 Months","open":"0","detail":[
             ["title":"Finely mashed or pureed foods","open":"0","detail":[
                 ["title":"Breastmilk","type":"0","image":"3"],
                 ["title":"Infant formula","type":"0","image":"4"],
@@ -34,7 +34,7 @@ class FifthViewController: UIViewController {
                 ["title":"Smooth mashed pear","type":"0","image":"10"],
                 ["title":"Well-cooked pureed liver","type":"0","image":"11"],
                 ["title":"Well-cooked pureed meat","type":"0","image":"12"]]]]],
-        ["title":"8-12","open":"0","detail":[
+        ["title":"8-12 Months","open":"0","detail":[
             ["title":"Mashed or chopped foods and finger foods","open":"0","detail":[
                 ["title":"Breastmilk","type":"0","image":"13"],
                 ["title":"Infant formula","type":"0","image":"14"],
@@ -49,7 +49,7 @@ class FifthViewController: UIViewController {
                 ["title":"cooked fruit","type":"0","image":"23"],
                 ["title":"Chipped soft raw fruit","type":"0","image":"24"],
                 ["title":"Cereals such as rice","type":"0","image":"25"]]]]],
-        ["title":"9-12","open":"0","detail":[
+        ["title":"9-12 Months","open":"0","detail":[
             ["title":"Soft food","open":"0","detail":[
                 ["title":"Breastmilk","type":"0","image":"26"],
                 ["title":"Infant formula","type":"0","image":"27"],
@@ -67,7 +67,7 @@ class FifthViewController: UIViewController {
                 ["title":"custards","type":"0","image":"39"],
                 ["title":"custards","type":"0","image":"40"],
                 ["title":"yoghurt","type":"0","image":"41"]]]]],
-        ["title":"12+","open":"0","detail":[
+        ["title":"12+ Months","open":"0","detail":[
             ["title":"Family foods","open":"0","detail":[
                 ["title":"Breastmilk","type":"0","image":"42"],
                 ["title":"plain pasteurised full-cream milk","type":"0","image":"43"],
@@ -80,14 +80,14 @@ class FifthViewController: UIViewController {
     fileprivate func configBaseView() {
         
         self.navigationItem.title = "Baby's Food in Different Age"
-        self.view.backgroundColor = .white
-        self.mainTableView.backgroundColor = .white
+        self.view.backgroundColor = UIColor(patternImage: #imageLiteral(resourceName: "background"))
+        self.mainTableView.backgroundColor = .clear
         self.mainTableView.register(FoodMonthListCell.classForCoder(), forCellReuseIdentifier: "FoodMonthListCell")
         self.mainTableView.register(FoodFirstListCell.classForCoder(), forCellReuseIdentifier: "FoodFirstListCell")
         self.mainTableView.register(FoodSecondListCell.classForCoder(), forCellReuseIdentifier: "FoodSecondListCell")
         
         self.mainTableView.separatorStyle = .none
-        //ios11 防止跳动
+
         self.mainTableView.estimatedRowHeight = 0
         self.mainTableView.estimatedSectionFooterHeight = 0
         self.mainTableView.estimatedSectionHeaderHeight = 0
@@ -139,8 +139,14 @@ extension FifthViewController : UITableViewDataSource {
         if indexPath.section == 0 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "FoodMonthListCell",
                                                      for: indexPath) as! FoodMonthListCell
-            cell.cellModel(title: "Month", detialOpen: false,isOpen: false)
-            cell.backgroundColor = .white
+            
+            let title = UILabel(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: cell.frame.height))
+            title.text = "Check Out the Information for Your Baby"
+            title.center.x = self.view.center.x
+            title.textAlignment = .center
+            title.font = UIFont.boldSystemFont(ofSize: 14)
+            cell.addSubview(title)
+            cell.backgroundColor = .clear
             cell.selectionStyle = .none
             return cell
         } else {
@@ -151,7 +157,7 @@ extension FifthViewController : UITableViewDataSource {
                 let title = dic["title"] as? String
                 let open = dic["open"] as? String
                 cell.cellModel(title: title ?? "", detialOpen: true,isOpen: open == "1")
-                cell.backgroundColor = .white
+                cell.backgroundColor = .clear
                 cell.selectionStyle = .none
                 return cell
             } else if indexPath.row == 1 {
@@ -171,7 +177,7 @@ extension FifthViewController : UITableViewDataSource {
                         }
                     }
                 }
-                cell.backgroundColor = .white
+                cell.backgroundColor = .clear
                 cell.selectionStyle = .none
                 return cell
             } else {
@@ -190,14 +196,15 @@ extension FifthViewController : UITableViewDataSource {
                             let title = sectionDic["title"] as? String
                             let type = sectionDic["type"] as? String
                             if type == "1" {
-                                cell.backgroundColor = .darkGray
+                                cell.backgroundColor = .green
                             } else {
-                                cell.backgroundColor = .white
+                                cell.backgroundColor = .clear
                             }
                             cell.cellModel(title: title ?? "")
                         }
                     }
                 }
+                cell.backgroundColor = .clear
                 cell.selectionStyle = .none
                 return cell
             }
