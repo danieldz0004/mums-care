@@ -1,0 +1,117 @@
+PODS:
+  - Alamofire (4.8.2)
+  - BiometricAuthentication (3.0)
+  - Charts (3.3.0):
+    - Charts/Core (= 3.3.0)
+  - Charts/Core (3.3.0)
+  - DynamicBlurView (3.0.1)
+  - Firebase/Auth (5.20.2):
+    - Firebase/CoreOnly
+    - FirebaseAuth (= 5.4.2)
+  - Firebase/CoreOnly (5.20.2):
+    - FirebaseCore (= 5.4.1)
+  - Firebase/Database (5.20.2):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (= 5.1.1)
+  - FirebaseAuth (5.4.2):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.2)
+    - GoogleUtilities/Environment (~> 5.2)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseAuthInterop (1.0.0)
+  - FirebaseCore (5.4.1):
+    - GoogleUtilities/Environment (~> 5.2)
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseDatabase (5.1.1):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.2)
+    - leveldb-library (~> 1.18)
+  - FoldingCell (5.0.1)
+  - GoogleMaps (3.1.0):
+    - GoogleMaps/Maps (= 3.1.0)
+  - GoogleMaps/Base (3.1.0)
+  - GoogleMaps/Maps (3.1.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (3.1.0):
+    - GoogleMaps (= 3.1.0)
+    - GooglePlaces (= 3.1.0)
+  - GooglePlaces (3.1.0):
+    - GoogleMaps/Base (= 3.1.0)
+  - GoogleUtilities/Environment (5.8.0)
+  - GoogleUtilities/Logger (5.8.0):
+    - GoogleUtilities/Environment
+  - GTMSessionFetcher/Core (1.2.1)
+  - leveldb-library (1.20)
+  - PopupDialog (1.1.0):
+    - DynamicBlurView (~> 3.0.1)
+  - SnapKit (4.0.1)
+  - SwiftyJSON (4.3.0)
+  - TCPickerView (0.2.6)
+  - ZKCarousel (0.2.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - BiometricAuthentication
+  - Charts
+  - Firebase/Auth
+  - Firebase/Database
+  - FoldingCell
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+  - PopupDialog (~> 1.1)
+  - SnapKit (~> 4.0.0)
+  - SwiftyJSON (~> 4.0)
+  - TCPickerView
+  - ZKCarousel
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - BiometricAuthentication
+    - Charts
+    - DynamicBlurView
+    - Firebase
+    - FirebaseAuth
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseDatabase
+    - FoldingCell
+    - GoogleMaps
+    - GooglePlacePicker
+    - GooglePlaces
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - leveldb-library
+    - PopupDialog
+    - SnapKit
+    - SwiftyJSON
+    - TCPickerView
+    - ZKCarousel
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  BiometricAuthentication: e39b1a55040d679d5dbc4fa90d76e067c432de7f
+  Charts: ec1f57f9340054155691e84d4544a1d239d382c5
+  DynamicBlurView: b1df5415f9bd31897549e5d7077e5ec120a4d636
+  Firebase: 0c8cf33f266410c61ab3e2265cfa412200351d9c
+  FirebaseAuth: dd7bbf03a5aee0eafb3a1aee4d2812bd74bac890
+  FirebaseAuthInterop: 0ffa57668be100582bb7643d4fcb7615496c41fc
+  FirebaseCore: f1a9a8be1aee4bf71a2fc0f4096df6788bdfda61
+  FirebaseDatabase: 2c15b0ea6f2c6eb5e57413f9d6340f1e50b81ae3
+  FoldingCell: 9197b915a415af9e52a857964066797af6a51c2b
+  GoogleMaps: 5c13302e6fe6bb6e686b267196586b91cd594225
+  GooglePlacePicker: 1c60c2a26e9d1e73bcb0c6f89609db8d777d13c1
+  GooglePlaces: e874db179f2675c4f3eeda0b686b540273a578b0
+  GoogleUtilities: 04fce34bcd5620c1ee76fb79172105c74a4df335
+  GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
+  leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  PopupDialog: 42fb7a0bc4fafdf89fef8b5b2b127a6023f3e1cc
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  TCPickerView: 5964aa81307220bec0d126240a661d37c279e4e6
+  ZKCarousel: 2cb2a9bbfebfa50ff7e240ae061890cdc3ee3cd8
+
+PODFILE CHECKSUM: a40a09bf944cfe70b20a2d5c9e9ac01ffef7ee0c
+
+COCOAPODS: 1.6.1
