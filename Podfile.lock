@@ -1,106 +1,117 @@
 PODS:
-  - Charts (3.2.2):
-    - Charts/Core (= 3.2.2)
-  - Charts/Core (3.2.2)
-  - Firebase/Auth (4.13.0):
-    - Firebase/Core
-    - FirebaseAuth (= 4.6.1)
-  - Firebase/Core (4.13.0):
-    - FirebaseAnalytics (= 4.2.0)
-    - FirebaseCore (= 4.0.20)
-  - Firebase/Database (4.13.0):
-    - Firebase/Core
-    - FirebaseDatabase (= 4.1.5)
-  - FirebaseAnalytics (4.2.0):
-    - FirebaseCore (~> 4.0)
-    - FirebaseInstanceID (~> 2.0)
-    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
-    - nanopb (~> 0.3)
-  - FirebaseAuth (4.6.1):
-    - FirebaseAnalytics (~> 4.2)
-    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+  - Alamofire (4.8.2)
+  - BiometricAuthentication (3.0)
+  - Charts (3.3.0):
+    - Charts/Core (= 3.3.0)
+  - Charts/Core (3.3.0)
+  - DynamicBlurView (3.0.1)
+  - Firebase/Auth (5.20.2):
+    - Firebase/CoreOnly
+    - FirebaseAuth (= 5.4.2)
+  - Firebase/CoreOnly (5.20.2):
+    - FirebaseCore (= 5.4.1)
+  - Firebase/Database (5.20.2):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (= 5.1.1)
+  - FirebaseAuth (5.4.2):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.2)
+    - GoogleUtilities/Environment (~> 5.2)
     - GTMSessionFetcher/Core (~> 1.1)
-  - FirebaseCore (4.0.20):
-    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
-  - FirebaseDatabase (4.1.5):
-    - FirebaseAnalytics (~> 4.1)
-    - FirebaseCore (~> 4.0)
+  - FirebaseAuthInterop (1.0.0)
+  - FirebaseCore (5.4.1):
+    - GoogleUtilities/Environment (~> 5.2)
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseDatabase (5.1.1):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.2)
     - leveldb-library (~> 1.18)
-  - FirebaseInstanceID (2.0.10):
-    - FirebaseCore (~> 4.0)
-  - GoogleMaps (3.0.3):
-    - GoogleMaps/Maps (= 3.0.3)
-  - GoogleMaps/Base (3.0.3)
-  - GoogleMaps/Maps (3.0.3):
+  - FoldingCell (5.0.1)
+  - GoogleMaps (3.1.0):
+    - GoogleMaps/Maps (= 3.1.0)
+  - GoogleMaps/Base (3.1.0)
+  - GoogleMaps/Maps (3.1.0):
     - GoogleMaps/Base
-  - GooglePlacePicker (3.0.3):
-    - GoogleMaps (= 3.0.3)
-    - GooglePlaces (= 3.0.3)
-  - GooglePlaces (3.0.3):
-    - GoogleMaps/Base (= 3.0.3)
-  - GoogleToolboxForMac/DebugUtils (2.1.4):
-    - GoogleToolboxForMac/Defines (= 2.1.4)
-  - GoogleToolboxForMac/Defines (2.1.4)
-  - "GoogleToolboxForMac/NSData+zlib (2.1.4)":
-    - GoogleToolboxForMac/Defines (= 2.1.4)
-  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.1.4)":
-    - GoogleToolboxForMac/DebugUtils (= 2.1.4)
-    - GoogleToolboxForMac/Defines (= 2.1.4)
-    - "GoogleToolboxForMac/NSString+URLArguments (= 2.1.4)"
-  - "GoogleToolboxForMac/NSString+URLArguments (2.1.4)"
-  - GTMSessionFetcher/Core (1.1.15)
+  - GooglePlacePicker (3.1.0):
+    - GoogleMaps (= 3.1.0)
+    - GooglePlaces (= 3.1.0)
+  - GooglePlaces (3.1.0):
+    - GoogleMaps/Base (= 3.1.0)
+  - GoogleUtilities/Environment (5.8.0)
+  - GoogleUtilities/Logger (5.8.0):
+    - GoogleUtilities/Environment
+  - GTMSessionFetcher/Core (1.2.1)
   - leveldb-library (1.20)
-  - nanopb (0.3.8):
-    - nanopb/decode (= 0.3.8)
-    - nanopb/encode (= 0.3.8)
-  - nanopb/decode (0.3.8)
-  - nanopb/encode (0.3.8)
-  - PopupWindow (0.1.0)
+  - PopupDialog (1.1.0):
+    - DynamicBlurView (~> 3.0.1)
+  - SnapKit (4.0.1)
+  - SwiftyJSON (4.3.0)
+  - TCPickerView (0.2.6)
+  - ZKCarousel (0.2.1)
 
 DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - BiometricAuthentication
   - Charts
   - Firebase/Auth
   - Firebase/Database
+  - FoldingCell
   - GoogleMaps
   - GooglePlacePicker
   - GooglePlaces
-  - PopupWindow
+  - PopupDialog (~> 1.1)
+  - SnapKit (~> 4.0.0)
+  - SwiftyJSON (~> 4.0)
+  - TCPickerView
+  - ZKCarousel
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - BiometricAuthentication
     - Charts
+    - DynamicBlurView
     - Firebase
-    - FirebaseAnalytics
     - FirebaseAuth
+    - FirebaseAuthInterop
     - FirebaseCore
     - FirebaseDatabase
-    - FirebaseInstanceID
+    - FoldingCell
     - GoogleMaps
     - GooglePlacePicker
     - GooglePlaces
-    - GoogleToolboxForMac
+    - GoogleUtilities
     - GTMSessionFetcher
     - leveldb-library
-    - nanopb
-    - PopupWindow
+    - PopupDialog
+    - SnapKit
+    - SwiftyJSON
+    - TCPickerView
+    - ZKCarousel
 
 SPEC CHECKSUMS:
-  Charts: f69cf0518b6d1d62608ca504248f1bbe0b6ae77e
-  Firebase: 5ec5e863d269d82d66b4bf56856726f8fb8f0fb3
-  FirebaseAnalytics: 7ef69e76a5142f643aeb47c780e1cdce4e23632e
-  FirebaseAuth: bf22cacf22c60ab454bf2636f556d8892b10b53f
-  FirebaseCore: 90cb1c53d69b556f112a1bf72b5fcfaad7650790
-  FirebaseDatabase: 5f0bc6134c5c237cf55f9e1249d406770a75eafd
-  FirebaseInstanceID: 8d20d890d65c917f9f7d9950b6e10a760ad34321
-  GoogleMaps: fd5c9fa58871781b9fb94d4936f19c69fe60ce32
-  GooglePlacePicker: 0c90898945f02ef36cce86fc9a107e1c5d3d26b1
-  GooglePlaces: f09e76993c9c3ee4af8f4f7f535bb94d6aa3b649
-  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
-  GTMSessionFetcher: 5fa5b80fd20e439ef5f545fb2cb3ca6c6714caa2
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  BiometricAuthentication: e39b1a55040d679d5dbc4fa90d76e067c432de7f
+  Charts: ec1f57f9340054155691e84d4544a1d239d382c5
+  DynamicBlurView: b1df5415f9bd31897549e5d7077e5ec120a4d636
+  Firebase: 0c8cf33f266410c61ab3e2265cfa412200351d9c
+  FirebaseAuth: dd7bbf03a5aee0eafb3a1aee4d2812bd74bac890
+  FirebaseAuthInterop: 0ffa57668be100582bb7643d4fcb7615496c41fc
+  FirebaseCore: f1a9a8be1aee4bf71a2fc0f4096df6788bdfda61
+  FirebaseDatabase: 2c15b0ea6f2c6eb5e57413f9d6340f1e50b81ae3
+  FoldingCell: 9197b915a415af9e52a857964066797af6a51c2b
+  GoogleMaps: 5c13302e6fe6bb6e686b267196586b91cd594225
+  GooglePlacePicker: 1c60c2a26e9d1e73bcb0c6f89609db8d777d13c1
+  GooglePlaces: e874db179f2675c4f3eeda0b686b540273a578b0
+  GoogleUtilities: 04fce34bcd5620c1ee76fb79172105c74a4df335
+  GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
-  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
-  PopupWindow: 2f3a33001295435a3ab568e42a970d51539ed6e9
+  PopupDialog: 42fb7a0bc4fafdf89fef8b5b2b127a6023f3e1cc
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  TCPickerView: 5964aa81307220bec0d126240a661d37c279e4e6
+  ZKCarousel: 2cb2a9bbfebfa50ff7e240ae061890cdc3ee3cd8
 
-PODFILE CHECKSUM: c3f478bd63e1fced31811db4026160edabd567db
+PODFILE CHECKSUM: a40a09bf944cfe70b20a2d5c9e9ac01ffef7ee0c
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1
