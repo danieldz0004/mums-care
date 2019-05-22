@@ -12,6 +12,8 @@
 		0AD7561322705902007505CF /* RatingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD7561222705902007505CF /* RatingListViewController.swift */; };
 		0AD7561522706389007505CF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD7561422706389007505CF /* MapViewController.swift */; };
 		136B4C782276BEBB005D407C /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136B4C772276BEBB005D407C /* TabBarViewController.swift */; };
+		370B97E422950B8100854447 /* vaccination_coverage_victoria_final_version.json in Resources */ = {isa = PBXBuildFile; fileRef = 370B97E322950B8100854447 /* vaccination_coverage_victoria_final_version.json */; };
+		370B97E7229534F800854447 /* ButtonUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370B97E6229534F800854447 /* ButtonUtil.swift */; };
 		370CF17F2286B8EE00B10576 /* Proficiency.json in Resources */ = {isa = PBXBuildFile; fileRef = 370CF17C2286B8EE00B10576 /* Proficiency.json */; };
 		370CF1802286B8EE00B10576 /* Language.json in Resources */ = {isa = PBXBuildFile; fileRef = 370CF17D2286B8EE00B10576 /* Language.json */; };
 		370CF1812286B8EE00B10576 /* Suburb.json in Resources */ = {isa = PBXBuildFile; fileRef = 370CF17E2286B8EE00B10576 /* Suburb.json */; };
@@ -110,6 +112,8 @@
 		136B4C772276BEBB005D407C /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		27E8CE50A8F8F43A9D1BF46A /* Pods_MumsCareUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MumsCareUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3709CD3122808B0B00B6C40D /* FoldingCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FoldingCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		370B97E322950B8100854447 /* vaccination_coverage_victoria_final_version.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vaccination_coverage_victoria_final_version.json; sourceTree = "<group>"; };
+		370B97E6229534F800854447 /* ButtonUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonUtil.swift; sourceTree = "<group>"; };
 		370CF17C2286B8EE00B10576 /* Proficiency.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Proficiency.json; sourceTree = "<group>"; };
 		370CF17D2286B8EE00B10576 /* Language.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Language.json; sourceTree = "<group>"; };
 		370CF17E2286B8EE00B10576 /* Suburb.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Suburb.json; sourceTree = "<group>"; };
@@ -357,6 +361,7 @@
 		6D684EB12275FB2D00B791CC /* JsonFile */ = {
 			isa = PBXGroup;
 			children = (
+				370B97E322950B8100854447 /* vaccination_coverage_victoria_final_version.json */,
 				370CF17D2286B8EE00B10576 /* Language.json */,
 				370CF1842286E69300B10576 /* Boundary.json */,
 				370CF17C2286B8EE00B10576 /* Proficiency.json */,
@@ -439,6 +444,7 @@
 				136B4C772276BEBB005D407C /* TabBarViewController.swift */,
 				6D29897E2257B42E006D3FB8 /* GoogleService-Info.plist */,
 				F8C96055209473D8007E90C5 /* Info.plist */,
+				370B97E6229534F800854447 /* ButtonUtil.swift */,
 			);
 			path = MumsCare;
 			sourceTree = "<group>";
@@ -582,6 +588,7 @@
 				377D2BA9228544E0005F39FD /* Population.json in Resources */,
 				6D29897F2257B42E006D3FB8 /* GoogleService-Info.plist in Resources */,
 				6D684EA02275F88A00B791CC /* Kindergarten.json in Resources */,
+				370B97E422950B8100854447 /* vaccination_coverage_victoria_final_version.json in Resources */,
 				6D684E9C2275F87500B791CC /* Hospital.json in Resources */,
 				6D684EA22275F89400B791CC /* Toilet.json in Resources */,
 				370CF1852286E69300B10576 /* Boundary.json in Resources */,
@@ -770,6 +777,7 @@
 				6DB72FF32275514300FF4197 /* FoodMonthListCell.swift in Sources */,
 				0AD7561122703D8B007505CF /* HttpServerManager.swift in Sources */,
 				3762CB22228D3F3900C6E825 /* BottomPopupViewController.swift in Sources */,
+				370B97E7229534F800854447 /* ButtonUtil.swift in Sources */,
 				3762CB1F228D3F3900C6E825 /* BottomPopupDismissInteractionController.swift in Sources */,
 				37A91682228A98E600B079A5 /* CollapsibleTableViewCell.swift in Sources */,
 				3762CB0D228D2C8400C6E825 /* CustomPageViewController.swift in Sources */,

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>517082215215-2v630g9octrv9ugqqngvifnaa09vqkgj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.517082215215-2v630g9octrv9ugqqngvifnaa09vqkgj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBb3KvHv_Y4hLAuzur3XgCO0edvr3w_jGU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>517082215215</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.monash.mom-s-care</string>
+	<key>PROJECT_ID</key>
+	<string>mom-s-care-database</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mom-s-care-database.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:517082215215:ios:0ce7a14d82847795</string>
+	<key>DATABASE_URL</key>
+	<string>https://mom-s-care-database.firebaseio.com</string>
+</dict>
+</plist>
