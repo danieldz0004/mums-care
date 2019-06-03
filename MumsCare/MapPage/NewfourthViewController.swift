@@ -64,7 +64,7 @@ class NewfourthViewController: UIViewController,UITableViewDelegate,UITableViewD
         tableView.deselectRow(at: indexPath, animated: true)
         
         weak var weakSelf = self
-        let alertvc = UIAlertController.init(title: "Please Enter a Postcode", message: nil, preferredStyle: .alert)
+        let alertvc = UIAlertController.init(title: NSLocalizedString("Please Enter a Postcode", comment: ""), message: nil, preferredStyle: .alert)
         let alertAction0 = UIAlertAction.init(title: "Confirm", style: .default) { (action) in
             
             weakSelf?.searchLoaction(alertvc.textFields![0].text!, indexPath)

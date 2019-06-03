@@ -5,13 +5,13 @@
 "2m7-M9-o2R.title" = "地图";
 
 /* Class = "UILabel"; text = "Feel part of a bigger Chinese community\n\nGet valuable support from the network of \nChinese people\n\nFeel Australia \"A home away from home\" \n"; ObjectID = "6hr-ZC-7sx"; */
-"6hr-ZC-7sx.text" = "你在澳大利亚遇到过困难么\n 有时总会有语言不通\n 或者是所说方言同是华人也难以理解？ \n\n让我们帮助你\n 让你在澳大利亚找到你如家乡一般的感觉";
+"6hr-ZC-7sx.text" = "你在澳大利亚遇到过困难么\n 有时总会有语言不通\n 或者是所说方言同是华人也难以理解？ \n让我们帮助你\n 让你在澳大利亚找到你如家乡一般的感觉";
 
 /* Class = "UILabel"; text = "4.9"; ObjectID = "7ES-fc-ju3"; */
 "7ES-fc-ju3.text" = "4.9";
 
 /* Class = "UIButton"; normalTitle = "Show History Data"; ObjectID = "7GW-i9-Knq"; */
-"7GW-i9-Knq.normalTitle" = "显示历史数据";
+"7GW-i9-Knq.normalTitle" = "查看覆盖率";
 
 /* Class = "UITabBarItem"; title = "Home"; ObjectID = "7ra-0G-hwg"; */
 "7ra-0G-hwg.title" = "主页";
@@ -200,3 +200,13 @@
 "O3F-vB-fOo.title" = "返回";
 
 "Bby-cM-nWR.title" = "返回";
+
+//Immunization helps your child to stay healthy in the first place and reduces the spread of vaccine-preventable diseases in the community
+"O5m-yw-zGT.text" = "注射疫苗可以确保您的孩子的身体健康，并有效抵御可被疫苗预防的疾病的传播";
+
+
+//Know your suburb's child immunization rate
+"eEF-MG-Rrx.text" = "了解您社区的疫苗覆盖率";
+
+
+"XcO-zJ-BOB.text" = "点击红色标记查看详细信息";

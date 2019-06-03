@@ -12,12 +12,14 @@ import PopupDialog
 
 class ThirdViewController: UIViewController,UITextFieldDelegate  {
     
+
+    
     @IBOutlet weak var InfoButton: UIButton!
     
     @IBAction func covInfoBtn(_ sender: Any) {
         let a:Int? = Int(postCodeField.text ?? "0")
         if a != nil{
-            if a! >= 3000 && a! <= 4000 {
+            if a! >= 3000 && a! <= 3999 {
                 let result = findPostcode(postcode: a!)
                 if result.count != 2
                 {
@@ -37,7 +39,7 @@ class ThirdViewController: UIViewController,UITextFieldDelegate  {
                         let title = NSLocalizedString("\(result[0]) - \(result[1])%", comment: "")
                         
                         // Create the dialog
-                        let popup = PopupDialog(title: title, message: nil, image: nil, preferredWidth: 580)
+                        let popup = PopupDialog(title: title, message: NSLocalizedString(" Good ", comment: ""), image: nil, preferredWidth: 580)
                         
                         // Create first button
                         let buttonOne = DefaultButton(title: NSLocalizedString("OK", comment: "")) {
@@ -56,7 +58,7 @@ class ThirdViewController: UIViewController,UITextFieldDelegate  {
                         let title = NSLocalizedString("\(result[0]) - \(result[1])%", comment: "")
                         
                         // Create the dialog
-                        let popup = PopupDialog(title: title, message: nil, image: nil, preferredWidth: 580)
+                        let popup = PopupDialog(title: title, message: NSLocalizedString(" Excellent ", comment: ""), image: nil, preferredWidth: 580)
                         
                         // Create first button
                         let buttonOne = DefaultButton(title: NSLocalizedString("OK", comment: "")) {
@@ -74,7 +76,7 @@ class ThirdViewController: UIViewController,UITextFieldDelegate  {
                         let title = NSLocalizedString("\(result[0]) - \(result[1])%", comment: "")
                         
                         // Create the dialog
-                        let popup = PopupDialog(title: title, message: nil, image: nil, preferredWidth: 580)
+                        let popup = PopupDialog(title: title, message: NSLocalizedString(" Poor ", comment: ""), image: nil, preferredWidth: 580)
                         
                         // Create first button
                         let buttonOne = DefaultButton(title: NSLocalizedString("OK", comment: "")) {
@@ -93,7 +95,7 @@ class ThirdViewController: UIViewController,UITextFieldDelegate  {
                         let title = NSLocalizedString("\(result[0]) - \(result[1])%", comment: "")
                         
                         // Create the dialog
-                        let popup = PopupDialog(title: title, message: nil, image: nil, preferredWidth: 580)
+                        let popup = PopupDialog(title: title, message: NSLocalizedString(" Average ", comment: ""), image: nil, preferredWidth: 580)
                         
                         // Create first button
                         let buttonOne = DefaultButton(title: NSLocalizedString("OK", comment: "")) {
@@ -155,7 +157,7 @@ class ThirdViewController: UIViewController,UITextFieldDelegate  {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.title = NSLocalizedString(" Suburb Immunization ", comment: "")
         postCodeField.delegate = self
         
         self.hideKeyboardWhenTappedAround()

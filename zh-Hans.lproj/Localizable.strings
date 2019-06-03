@@ -211,6 +211,12 @@
 
 "The Postcode is Incorrect" = "邮编错误";
 
+"No matches\nPlease enter another postcode" = "此邮编无符合信息\n请重新输入邮编";
+
+"Postcode is Incorrect" = "邮编不正确";
+
+"Please input postcode range from 3000 to 3999" = "请输入3000-3999之间的邮编";
+
 "Sorry" = "对不起";
 
 "Please Enter Your Postcode" = "请输入您的邮编";
@@ -218,6 +224,14 @@
 "Percent full immunised (%)" = "疫苗全部接种（百分比%）";
 
 "Please input your postcode above" = "请在框中填入想要查询的邮编号码";
+
+" Good " = "不错";
+
+" Excellent " = "非常好";
+
+" Poor " = "较低";
+
+" Average " = "平均";
 
 /*
  information changed, not using anymore
@@ -500,3 +514,12 @@
 
 //MileStonePage/SixthViewController
 "Mark Done" = "已经达成";
+
+//vacInfoPage/TestViewController - title
+"Vaccination Requirements" = "疫苗信息";
+
+
+//CoveragePage/ThirdViewController - title
+" Suburb Immunization " = "疫苗覆盖率";
+
+//"Please Enter a Postcode" = "111";

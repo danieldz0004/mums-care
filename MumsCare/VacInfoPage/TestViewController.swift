@@ -18,7 +18,7 @@ class TestViewController: UITableViewController {
     
     
     override func viewDidLoad() {
-        self.title = "Vaccination Requirements"
+        self.title = NSLocalizedString("Vaccination Requirements", comment: "")
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "resultCell")
         view.backgroundColor = UIColor(patternImage: #imageLiteral(resourceName: "background"))
         tableView.backgroundColor = UIColor(patternImage: #imageLiteral(resourceName: "background"))

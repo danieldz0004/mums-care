@@ -37,14 +37,14 @@ class VacTrackerViewController: UIViewController {
     
     @IBAction func findToilet(_ sender: Any) {
         weak var weakSelf = self
-        let alertvc = UIAlertController.init(title: "Please Enter a Postcode", message: nil, preferredStyle: .alert)
-        let alertAction0 = UIAlertAction.init(title: "Confirm", style: .default) { (action) in
+        let alertvc = UIAlertController.init(title: NSLocalizedString("Please Enter a Postcode", comment: ""), message: nil, preferredStyle: .alert)
+        let alertAction0 = UIAlertAction.init(title: NSLocalizedString("Confirm", comment: ""), style: .default) { (action) in
             
             weakSelf?.searchLoaction(alertvc.textFields![0].text!)
             weakSelf?.currentType = (weakSelf?.currentType)!
             
         }
-        let alertAction1 = UIAlertAction.init(title: "Cancel", style: .cancel) { (action) in
+        let alertAction1 = UIAlertAction.init(title: NSLocalizedString("Cancel", comment: ""), style: .cancel) { (action) in
             //no code
         }
         alertvc.addAction(alertAction0)

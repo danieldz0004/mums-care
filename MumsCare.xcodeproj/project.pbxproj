@@ -61,7 +61,6 @@
 		6D684E9E2275F87F00B791CC /* Childcare.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D684E9D2275F87F00B791CC /* Childcare.json */; };
 		6D684EA02275F88A00B791CC /* Kindergarten.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D684E9F2275F88900B791CC /* Kindergarten.json */; };
 		6D684EA22275F89400B791CC /* Toilet.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D684EA12275F89400B791CC /* Toilet.json */; };
-		6D684EA42275F89E00B791CC /* Parks.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D684EA32275F89E00B791CC /* Parks.json */; };
 		6D684EAE2275F99000B791CC /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D684EAD2275F99000B791CC /* ProgressHUD.swift */; };
 		6D684EB02275F99C00B791CC /* ProgressHUD.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D684EAF2275F99C00B791CC /* ProgressHUD.xib */; };
 		6D6DA862226432B3002DBA3E /* VaccinationListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6DA861226432B3002DBA3E /* VaccinationListController.swift */; };
@@ -74,6 +73,7 @@
 		6DB72FF7227551A000FF4197 /* FoodSecondListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB72FF6227551A000FF4197 /* FoodSecondListCell.swift */; };
 		CCA0C8C83EE8B3FD0F4F5C47 /* Pods_MumsCareTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B149C74EE7884E8035F9159 /* Pods_MumsCareTests.framework */; };
 		DF85410BDA75092925C6795F /* Pods_Week9TutorialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3BEE5F3FEC5AEEA8B3B7CAC /* Pods_Week9TutorialUITests.framework */; };
+		ED247325229643DF0046454F /* Parks.json in Resources */ = {isa = PBXBuildFile; fileRef = ED247324229643DF0046454F /* Parks.json */; };
 		F8C9604A209473D5007E90C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C96049209473D5007E90C5 /* AppDelegate.swift */; };
 		F8C9604F209473D5007E90C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8C9604D209473D5007E90C5 /* Main.storyboard */; };
 		F8C96051209473D8007E90C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8C96050209473D8007E90C5 /* Assets.xcassets */; };
@@ -174,7 +174,6 @@
 		6D684E9D2275F87F00B791CC /* Childcare.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Childcare.json; sourceTree = "<group>"; };
 		6D684E9F2275F88900B791CC /* Kindergarten.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Kindergarten.json; sourceTree = "<group>"; };
 		6D684EA12275F89400B791CC /* Toilet.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Toilet.json; sourceTree = "<group>"; };
-		6D684EA32275F89E00B791CC /* Parks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Parks.json; sourceTree = "<group>"; };
 		6D684EAD2275F99000B791CC /* ProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressHUD.swift; sourceTree = "<group>"; };
 		6D684EAF2275F99C00B791CC /* ProgressHUD.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgressHUD.xib; sourceTree = "<group>"; };
 		6D6DA861226432B3002DBA3E /* VaccinationListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccinationListController.swift; sourceTree = "<group>"; };
@@ -195,6 +194,7 @@
 		B41B9613461889E80F3C98C4 /* Pods-MumsCare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MumsCare.release.xcconfig"; path = "Pods/Target Support Files/Pods-MumsCare/Pods-MumsCare.release.xcconfig"; sourceTree = "<group>"; };
 		B70A9DF89975D4FCDE43A795 /* Pods_Week9TutorialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Week9TutorialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3BEE5F3FEC5AEEA8B3B7CAC /* Pods_Week9TutorialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Week9TutorialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED247324229643DF0046454F /* Parks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Parks.json; sourceTree = "<group>"; };
 		F1C13D63BEFB1B24A666FC57 /* Pods-MumsCareUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MumsCareUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MumsCareUITests/Pods-MumsCareUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F8C96046209473D5007E90C5 /* MumsCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MumsCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8C96049209473D5007E90C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -328,11 +328,11 @@
 				3762CB19228D3F3900C6E825 /* BottomPopupPresentationController.swift */,
 				3762CB14228D3F3800C6E825 /* BottomPopupTransitionHandler.swift */,
 				3762CB18228D3F3800C6E825 /* BottomPopupUtils.swift */,
+				3762CAD9228D16CE00C6E825 /* VaccinationBottomPopup.swift */,
 				3762CB1A228D3F3900C6E825 /* BottomPopupViewController.swift */,
 				6D2989702257B3D0006D3FB8 /* VaccinationViewController.swift */,
 				6D2989712257B3D1006D3FB8 /* SecondViewController.swift */,
 				6D6DA861226432B3002DBA3E /* VaccinationListController.swift */,
-				3762CAD9228D16CE00C6E825 /* VaccinationBottomPopup.swift */,
 			);
 			path = VacInfoPage;
 			sourceTree = "<group>";
@@ -367,8 +367,8 @@
 				370CF17C2286B8EE00B10576 /* Proficiency.json */,
 				370CF17E2286B8EE00B10576 /* Suburb.json */,
 				6D684EA12275F89400B791CC /* Toilet.json */,
-				6D684EA32275F89E00B791CC /* Parks.json */,
 				377D2BA8228544E0005F39FD /* Population.json */,
+				ED247324229643DF0046454F /* Parks.json */,
 				6D684E9F2275F88900B791CC /* Kindergarten.json */,
 				6D684E9D2275F87F00B791CC /* Childcare.json */,
 				6D684E9B2275F87500B791CC /* Hospital.json */,
@@ -592,7 +592,7 @@
 				6D684E9C2275F87500B791CC /* Hospital.json in Resources */,
 				6D684EA22275F89400B791CC /* Toilet.json in Resources */,
 				370CF1852286E69300B10576 /* Boundary.json in Resources */,
-				6D684EA42275F89E00B791CC /* Parks.json in Resources */,
+				ED247325229643DF0046454F /* Parks.json in Resources */,
 				F8C96051209473D8007E90C5 /* Assets.xcassets in Resources */,
 				F8C9604F209473D5007E90C5 /* Main.storyboard in Resources */,
 				6D684E9E2275F87F00B791CC /* Childcare.json in Resources */,
